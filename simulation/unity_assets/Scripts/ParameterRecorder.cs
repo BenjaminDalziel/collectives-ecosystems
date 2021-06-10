@@ -49,7 +49,8 @@ public class ParameterRecorder : MonoBehaviour {
                          "PreySpeed," +
                          "PredSpeed," +
                          "Pursuit," +
-                         "Avoidance"
+                         "Avoidance," +
+                         "DeviantMutant"
                         );
 
     }
@@ -86,7 +87,8 @@ public class ParameterRecorder : MonoBehaviour {
             model.PreySpeed + "," +
             model.PredSpeed + "," +
             model.Pursuit + "," +
-            model.Avoidance
+            model.Avoidance + "," +
+            model.DeviantMutant
         );
 
     }
